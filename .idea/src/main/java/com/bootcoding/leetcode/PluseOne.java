@@ -20,7 +20,7 @@ public class PluseOne {
         int []digits={1,2,3};
         PluseOne po=new PluseOne();
         po.plusOne(digits);
-        for(int i=0;i< digits.length;i++) {
+        for(int i=0;i<digits.length;i++) {
             System.out.println(digits[i]);
 
         }
