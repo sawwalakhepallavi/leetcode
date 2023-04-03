@@ -11,6 +11,8 @@ public class AddSumArray {
         int sum=0;
         for(int i=0;i< nums.length;i++){
             sum=sum+nums[i];
+            nums[i]=sum;
+            System.out.print(nums[i]);
         }
 
         return nums;
