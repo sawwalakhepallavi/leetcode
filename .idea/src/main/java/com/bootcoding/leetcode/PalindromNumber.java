@@ -7,10 +7,8 @@ public class PalindromNumber {
         int num=x;
         int temp = x;
         while (x != 0) {
-            int div = x/10;
-
             rev=rev*10+ x%10;
-            temp=div;
+            x=x/10;
         }
         if (rev==temp){
             return true;
