@@ -6,6 +6,9 @@ public class TruncateSentence {
         StringBuffer str=new StringBuffer();
         for (int i=0;i<k;i++){
             str.append(s1[i]);
+            if(i!=k-1){
+                str.append(" ");
+            }
         }
         return str.toString();
     }
