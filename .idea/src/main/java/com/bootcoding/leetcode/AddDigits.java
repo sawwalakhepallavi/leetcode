@@ -5,6 +5,7 @@ public class AddDigits {
         int num=38;
         int i = addDigits(num);
         System.out.println(i);
+
     }
 
     private static int addDigits(int num) {
